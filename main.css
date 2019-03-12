@@ -1,0 +1,78 @@
+/* 
+Font for instructions, it shoul be a square that dessapears when hit enter
+font-family: 'ZCOOL QingKe HuangYou', cursive; 
+*/
+
+h1 {
+    color: #f7efed;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    padding: 20px 0;
+}
+
+body {
+    background-color: #69656f;
+    margin: 0;
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    font-size: 250%;
+    font-weight: normal;
+}
+
+button {
+    border: none;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    color: steelblue;
+}
+
+.board {
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: red;
+    background-color: rgb(216, 223, 230);
+    height: 30px;
+    margin: 0;
+}
+
+.square {
+    width: 30%;
+    background-color: #293249;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background-color 0.8s;
+}
+
+.selected {
+    color: white;
+    background-color: steelblue;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+    transition: all 0.5s;
+}
